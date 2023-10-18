@@ -1,6 +1,7 @@
 # eSewa Blog Clone
 
 ![eSewa Logo](https://cdn.esewa.com.np/ui/images/esewa_og.png?111)
+<img src="https://cdn.esewa.com.np/ui/images/esewa_og.png" alt="eSewa Logo" width="100" height="100">
 
 This is a clone of the eSewa blog page created for practice with HTML and CSS.
 
@@ -17,7 +18,7 @@ This project is a simple HTML and CSS clone of the eSewa blog page. It was creat
 
 ## Demo
 
-You can see a live demo of this project [here](https://blog.esewa.com.np/).
+You can see a live demo of this project [here](https://hunter109.github.io/Esewa-Blog-page/).
 
 ![eSewa Blog Clone Demo](link-to-demo-screenshot.png)
 
