@@ -1,6 +1,6 @@
 # eSewa Blog Clone
 
-![eSewa Logo](https://e7.pngegg.com/pngimages/18/669/png-clipart-esewa-fonepay-pvt-ltd-logo-brand-cash-on-delivery-logo-text-logo.png)
+![eSewa Logo](https://cdn.esewa.com.np/ui/images/esewa_og.png?111)
 
 This is a clone of the eSewa blog page created for practice with HTML and CSS.
 
@@ -17,7 +17,7 @@ This project is a simple HTML and CSS clone of the eSewa blog page. It was creat
 
 ## Demo
 
-You can see a live demo of this project [here](link-to-demo).
+You can see a live demo of this project [here](https://blog.esewa.com.np/).
 
 ![eSewa Blog Clone Demo](link-to-demo-screenshot.png)
 
@@ -31,5 +31,5 @@ You can see a live demo of this project [here](link-to-demo).
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/eSewa-Blog-Clone.git
+   git clone https://github.com/Hunter109/Esewa-Blog-page.git
    ```
