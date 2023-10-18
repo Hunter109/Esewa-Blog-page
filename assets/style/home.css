@@ -61,6 +61,10 @@ form .search-submit {
     text-transform: uppercase;
 }
 
+.mobile {
+    display: none;
+}
+
 /* <!-- esewa search bar style end here --> */
 
 /* <!-- esewa app icon and links bar style start here --> */
@@ -78,4 +82,90 @@ form .search-submit {
 
 /* <!-- esewa app icon and links bar style end here --> */
 
-/* header section style start here  */
+@media screen and (max-width: 428px) {
+    .header-container {
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+
+    .logo a img {
+        height: 3rem;
+    }
+
+    .app-icon a img {
+        height: 2rem;
+        margin: 10px;
+    }
+
+    .search-bar form {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+        /* width: 100%; */
+    }
+
+    form {
+        justify-content: center;
+    }
+
+    form .search-field {
+        width: 70vw;
+    }
+
+    form .search-submit {
+        width: 25%;
+    }
+}
+
+/* header section style end here  */
+
+
+
+/* navbar section style start here  */
+nav {
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links ul li {
+    padding: 20px 20px 20px 0;
+    font-size: 18px;
+    font-weight: 600;
+    /* line-height: 1.6em */
+}
+
+.social-icons a img {
+    width: 50px;
+    padding: 10px;
+
+}
+
+@media (max-width:428px) {
+
+
+    .nav-links ul li {
+        padding: 10px 10px 10px 0;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 3;
+    }
+
+    .social-icons {
+        display: none;
+    }
+
+}
