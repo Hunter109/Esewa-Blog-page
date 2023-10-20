@@ -19,7 +19,7 @@ This project is a simple HTML and CSS clone of the eSewa blog page. It was creat
 
 You can see a live demo of this project [here](https://hunter109.github.io/Esewa-Blog-page/).
 
-![eSewa Blog Clone Demo](link-to-demo-screenshot.png)
+![eSewa Blog Clone Demo](<./assets/image/mobile%20(1).png>)
 
 ## Technologies Used
 
