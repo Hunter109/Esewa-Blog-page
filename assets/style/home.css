@@ -61,6 +61,14 @@ form .search-submit {
     text-transform: uppercase;
 }
 
+form .search-submit:hover {
+    cursor: pointer;
+    transition: .8s;
+
+    background-color: #216d15;
+
+}
+
 .mobile {
     display: none;
 }
@@ -146,6 +154,19 @@ nav {
     /* line-height: 1.6em */
 }
 
+.nav-links ul li a {
+    color: black;
+}
+
+.nav-links ul li a:hover {
+    cursor: pointer;
+    transition: 0.8s;
+    /* Adjust the duration as needed */
+
+    color: #51c542;
+    /* line-height: 1.6em */
+}
+
 .social-icons a img {
     width: 50px;
     padding: 10px;
@@ -166,20 +187,16 @@ nav {
 
 /* navbar section style end here  */
 
-
 main {
     margin: 10px 110px 50px 110px;
 }
-
 
 /* main container style start here  */
 .main-container h3 {
     font-size: 28px;
     font-weight: 600;
     /* margin: 15px; */
-
 }
-
 
 .imagewith-aside {
     display: flex;
@@ -195,14 +212,12 @@ main {
 .image-with-text p {
     line-height: 2;
     color: #777777;
-
 }
 
 .image-asidebar {
     margin: 0 50px 10px 50px;
     display: flex;
     flex-direction: column;
-
 }
 
 .image-asidebar .image1 img,
@@ -224,7 +239,6 @@ main {
     color: #777777;
 }
 
-
 @media screen and (max-width: 428px) {
     main {
         margin: 20px;
@@ -232,8 +246,6 @@ main {
 
     .imagewith-aside {
         flex-direction: column;
-
-
     }
 
     .image-with-text img {
@@ -248,15 +260,10 @@ main {
         /* font-weight: 600; */
     }
 
-
-
-
     .image-with-text p {
         line-height: 1.5;
         font-size: 12px;
-
     }
-
 
     .image-asidebar {
         margin: 0;
@@ -264,26 +271,18 @@ main {
 
     .image-asidebar .image1 img,
     .image-asidebar .image2 img {
-
         height: 12rem;
     }
-
 
     .image-asidebar .image1 p,
     .image-asidebar .image2 p {
         font-size: 12px;
-
     }
-
-
 }
 
 /* main container style end here  */
 
-
-
 /* blog section style  start here  */
-
 
 .all-header {
     display: flex;
@@ -304,7 +303,6 @@ main {
     background-color: #51c542;
     padding: 10px 15px;
     cursor: pointer;
-
 }
 
 .image-container {
@@ -337,14 +335,12 @@ main {
     line-height: 1.8;
 }
 
-
-@media screen and (max-width:428px) {
+@media screen and (max-width: 428px) {
     .image-container {
         flex-direction: column;
     }
 
     .all-header {
-
         margin: 0;
         margin-bottom: 5px;
     }
@@ -354,10 +350,7 @@ main {
     }
 
     .all-header button {
-
         padding: 5px;
-
-
     }
 
     .image-container .image1,
@@ -368,7 +361,6 @@ main {
 
     .image-container p {
         font-size: 12px;
-
     }
 }
 
