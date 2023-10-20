@@ -168,9 +168,11 @@ nav {
 
 
 main {
-    margin: 10px 130px 50px 130px;
+    margin: 10px 110px 50px 110px;
 }
 
+
+/* main container style start here  */
 .main-container h3 {
     font-size: 28px;
     font-weight: 600;
@@ -192,6 +194,8 @@ main {
 
 .image-with-text p {
     line-height: 2;
+    color: #777777;
+
 }
 
 .image-asidebar {
@@ -217,6 +221,155 @@ main {
 .image-asidebar .image2 p {
     font-size: 14px;
     margin-bottom: 10px;
+    color: #777777;
+}
+
+
+@media screen and (max-width: 428px) {
+    main {
+        margin: 20px;
+    }
+
+    .imagewith-aside {
+        flex-direction: column;
+
+
+    }
+
+    .image-with-text img {
+        height: 50vw;
+        /* border-radius: 5px; */
+    }
+
+    .main-container h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        line-height: 1.5;
+        /* font-weight: 600; */
+    }
+
+
+
+
+    .image-with-text p {
+        line-height: 1.5;
+        font-size: 12px;
+
+    }
+
+
+    .image-asidebar {
+        margin: 0;
+    }
+
+    .image-asidebar .image1 img,
+    .image-asidebar .image2 img {
+
+        height: 12rem;
+    }
+
+
+    .image-asidebar .image1 p,
+    .image-asidebar .image2 p {
+        font-size: 12px;
+
+    }
+
+
+}
+
+/* main container style end here  */
+
+
+
+/* blog section style  start here  */
+
+
+.all-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.all-header h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.all-header button {
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    background-color: #51c542;
+    padding: 10px 15px;
+    cursor: pointer;
+
+}
+
+.image-container {
+    display: flex;
+    /* align-items: start; */
+    justify-content: center;
+}
+
+.image-container .image1,
+.image-container .image2,
+.image-container .image3 {
+    margin: 10px 20px;
+}
+
+.image-container .image1 img,
+.image-container .image2 img,
+.image-container .image3 img {
+    width: 100%;
+    /* height: 15rem; */
+}
+
+.image-container h3 {
+    font-size: 16px;
+}
+
+.image-container p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #777777;
+    line-height: 1.8;
+}
+
+
+@media screen and (max-width:428px) {
+    .image-container {
+        flex-direction: column;
+    }
+
+    .all-header {
+
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    .all-header h3 {
+        font-size: 20px;
+    }
+
+    .all-header button {
+
+        padding: 5px;
+
+
+    }
+
+    .image-container .image1,
+    .image-container .image2,
+    .image-container .image3 {
+        margin: 0;
+    }
+
+    .image-container p {
+        font-size: 12px;
+
+    }
 }
 
 /* footer section style start here  */
