@@ -305,6 +305,24 @@ main {
     cursor: pointer;
 }
 
+.load-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.load-btn button {
+
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 2px;
+    background-color: #51c542;
+    padding: 15px 50px;
+    cursor: pointer;
+
+}
+
 .image-container {
     display: flex;
     /* align-items: start; */
@@ -321,6 +339,7 @@ main {
 .image-container .image2 img,
 .image-container .image3 img {
     width: 100%;
+    border-radius: 5px;
     /* height: 15rem; */
 }
 
