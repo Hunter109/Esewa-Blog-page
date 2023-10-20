@@ -40,7 +40,6 @@ form {
 
 form .search-field {
     font-size: 14px;
-
     padding: 10px;
     width: 45vw;
     background-color: #f6f8fe;
@@ -166,6 +165,59 @@ nav {
 }
 
 /* navbar section style end here  */
+
+
+main {
+    margin: 10px 130px 50px 130px;
+}
+
+.main-container h3 {
+    font-size: 28px;
+    font-weight: 600;
+    /* margin: 15px; */
+
+}
+
+
+.imagewith-aside {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+
+.image-with-text img {
+    height: 30vw;
+    border-radius: 5px;
+}
+
+.image-with-text p {
+    line-height: 2;
+}
+
+.image-asidebar {
+    margin: 0 50px 10px 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.image-asidebar .image1 img,
+.image-asidebar .image2 img {
+    border-radius: 5px;
+
+    height: 15rem;
+}
+
+.image-asidebar .image1 h3,
+.image-asidebar .image2 h3 {
+    font-size: 20px;
+}
+
+.image-asidebar .image1 p,
+.image-asidebar .image2 p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
 
 /* footer section style start here  */
 
