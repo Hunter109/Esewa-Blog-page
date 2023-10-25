@@ -159,6 +159,8 @@ nav {
     color: black;
 }
 
+
+
 .nav-links ul li a:hover {
     cursor: pointer;
     transition: 0.8s;
@@ -167,6 +169,8 @@ nav {
     color: #51c542;
     /* line-height: 1.6em */
 }
+
+
 
 .social-icons a img {
     width: 50px;
